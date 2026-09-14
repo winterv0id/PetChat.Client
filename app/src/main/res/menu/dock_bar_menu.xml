@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/navRootChats"
+        android:icon="@drawable/ic_chats"
+        android:title="Чаты"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@id/navRootContacts"
+        android:icon="@drawable/ic_contacts"
+        android:title="Контакты"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@id/navRootProfile"
+        android:title="Профиль"
+        tools:ignore="HardcodedText" />
+</menu>

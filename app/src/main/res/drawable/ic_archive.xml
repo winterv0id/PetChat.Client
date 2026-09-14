@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Крышка -->
+    <path
+        android:pathData="M4.5,3.5h15A1.5,1.5 0 0,1 21,5v1a1.5,1.5 0 0,1 -1.5,1.5h-15A1.5,1.5 0 0,1 3,6V5a1.5,1.5 0 0,1 1.5,-1.5z"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Корпус -->
+    <path
+        android:pathData="M5,7.5v10A2.5,2.5 0 0,0 7.5,20h9a2.5,2.5 0 0,0 2.5,-2.5v-10"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Ручка -->
+    <path
+        android:pathData="M10,12h4"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+</vector>

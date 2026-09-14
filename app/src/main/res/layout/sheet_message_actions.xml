@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingVertical="8dp">
+
+    <TextView
+        android:id="@+id/actionCopy"
+        style="@style/MessageActionRow"
+        android:text="@string/message_action_copy"
+        android:drawablePadding="8dp"
+        app:drawableStartCompat="@drawable/ic_copy" />
+
+    <TextView
+        android:id="@+id/actionEdit"
+        style="@style/MessageActionRow"
+        android:text="@string/message_action_edit"
+        android:drawablePadding="8dp"
+        app:drawableStartCompat="@drawable/ic_edit" />
+
+    <TextView
+        android:id="@+id/actionDelete"
+        style="@style/MessageActionRow"
+        android:text="@string/message_action_delete"
+        android:textColor="@color/red_90"
+        android:drawablePadding="8dp"
+        app:drawableStartCompat="@drawable/ic_delete"
+        app:drawableTint="@color/red_90" />
+
+</LinearLayout>

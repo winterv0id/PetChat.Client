@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.petchat.messenger.ui.activities.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/navHostFragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/dockBarCard"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="@dimen/dock_bar_margin_horizontal"
+        android:layout_marginBottom="@dimen/dock_bar_margin_bottom"
+        app:cardCornerRadius="@dimen/dock_bar_corner_radius"
+        app:cardElevation="@dimen/dock_bar_elevation"
+        app:cardBackgroundColor="@color/background_30" >
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/dockBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:minHeight="0dp"
+            app:itemMinHeight="0dp"
+            app:itemActiveIndicatorStyle="@style/CompactActiveIndicator"
+            app:labelVisibilityMode="labeled"
+            app:itemTextColor="@color/text_80"
+            app:itemIconSize="22dp"
+            app:itemPaddingTop="0dp"
+            app:itemPaddingBottom="5dp"
+            app:itemTextAppearanceActive="@style/DockBarLabelText"
+            app:itemTextAppearanceInactive="@style/DockBarLabelText"
+            app:menu="@menu/dock_bar_menu"
+            android:layout_marginBottom="-15dp"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="96dp"
+        android:contentDescription="new chat"
+        android:backgroundTint="@color/accent_50_colored"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        tools:ignore="HardcodedText" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

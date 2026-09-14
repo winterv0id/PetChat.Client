@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="navRootChats" type="id" />
+    <item name="navRootContacts" type="id" />
+    <item name="navRootProfile" type="id" />
+    <item name="navMessagesFragment" type="id" />
+    <item name="navNewChatFragment" type="id" />
+</resources>

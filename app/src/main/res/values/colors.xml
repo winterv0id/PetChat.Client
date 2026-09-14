@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF52474e</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="background_10">#FF1a1518</color>
+    <color name="background_20">#FF332b33</color>
+    <color name="background_30">#FF4d404d</color>
+
+    <color name="text_30">#FF4d434d</color>
+    <color name="text_40">#FF665a66</color>
+    <color name="text_60">#FF968496</color>
+    <color name="text_70">#FFb39db3</color>
+    <color name="text_80">#FFccb4cc</color>
+    <color name="text_90">#FFe5cae5</color>
+    <color name="text_100">#FFffe0ff</color>
+    <color name="text_link">#FF7376d9</color>
+
+
+    <color name="accent_10">#FF18141a</color>
+    <color name="accent_20">#FF312933</color>
+
+    <color name="accent_30">#FF4a434d</color>
+    <color name="accent_30_colored">#FF493d4d</color>
+    <color name="accent_30_colored2">#FF4a394f</color>
+
+    <color name="accent_40">#FF625966</color>
+    <color name="accent_40_colored">#FF615166</color>
+    <color name="accent_40_colored2">#FF5f4866</color>
+
+    <color name="accent_50">#FF8b7e8f</color>
+    <color name="accent_50_colored">#FF88728f</color>
+    <color name="accent_50_colored2">#FF85678f</color>
+
+    <color name="accent_60">#FF9f90a3</color>
+    <color name="accent_60_colored">#FF9c82a3</color>
+    <color name="accent_60_colored2">#FF9976a3</color>
+
+    <color name="accent_70">#FFb09db3</color>
+    <color name="accent_70_colored">#FFb08fb3</color>
+    <color name="accent_70_colored2">#FFab79b3</color>
+
+    <color name="accent_80">#FFd2c1d6</color>
+    <color name="accent_80_colored">#FFCFB5D6</color>
+    <color name="accent_80_colored2">#FFcba1d6</color>
+
+    <color name="accent_90">#FFDBC8E0</color>
+    <color name="accent_90_colored">#FFd9bae0</color>
+    <color name="accent_90_colored2">#FFd5a8e0</color>
+
+    <color name="accent_100">#FFf9e5ff</color>
+    <color name="accent_100_colored">#FFf6d9ff</color>
+    <color name="accent_100_colored2">#FFf0bfff</color>
+
+    <color name="red_90">#FFe53c3c</color>
+    <color name="red_light_75">#FFcc5c5c</color>
+</resources>

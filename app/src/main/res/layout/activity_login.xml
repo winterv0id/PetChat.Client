@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.LoginActivity"
+    android:background="@drawable/background_gradient">
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include android:id="@+id/loginForm"
+            layout="@layout/view_login_form" />
+        <include android:id="@+id/registryForm"
+            layout="@layout/view_registry_form" />
+
+    </ViewFlipper>
+
+    <Button style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:foreground="@drawable/button_rounded_ripple"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/noto_sans_display"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@color/text_70"
+        android:textSize="16sp"
+        app:cornerRadius="20dp"
+        app:strokeColor="@color/accent_70_colored"
+        app:strokeWidth="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewFlipper"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/switchToRegistrationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/continueButton"
+        android:text="@string/login_switch_to_registry_button_text"
+        android:background="@android:color/transparent"
+        android:textColor="@color/teal_700" />
+
+    <TextView
+        android:id="@+id/versionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/accent_50_colored"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

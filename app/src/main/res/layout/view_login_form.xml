@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_sans_display"
+        android:text="sign in"
+        android:textColor="@color/accent_70_colored"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/loginEditText"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="username"
+        android:background="@drawable/edittext_rounded_corners14"
+        android:hint="Логин..."
+        android:inputType="textVisiblePassword"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="8dp"
+        android:textColorHint="@color/text_60"
+        android:textColor="@color/text_90"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="username"
+        android:background="@drawable/edittext_rounded_corners14"
+        android:hint="Пароль..."
+        android:inputType="textPassword"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="8dp"
+        android:textColorHint="@color/text_60"
+        android:textColor="@color/text_90"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
